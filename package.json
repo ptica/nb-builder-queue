@@ -1,0 +1,15 @@
+{
+  "name": "nb-builder-queue",
+  "version": "1.0.0",
+  "description": "Queue for next-book builds",
+  "main": "worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Ptacek",
+  "license": "ISC",
+  "dependencies": {
+    "nb-builder": "github:next-book/nb-builder",
+    "redis": "^2.7.1"
+  }
+}
